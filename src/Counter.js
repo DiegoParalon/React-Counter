@@ -9,10 +9,7 @@ const Counter = operador => {
         console.log('ok')
     }, [])
 
-    useEffect( ()=> {
-        console.log('teste456')
-
-    }, [teste])
+   
     
 
     const handleOnClick = operador => {
@@ -20,6 +17,7 @@ const Counter = operador => {
          contador + 1 :
          contador - 1
         setContador(novoContador)
+        
     }
 
 
